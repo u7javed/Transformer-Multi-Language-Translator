@@ -76,6 +76,9 @@ Since I do not know many of the langauges I have trained on the Transformer mode
 **Input:** "this debate and the amendment of the directive currently in force allow us to incorporate differentiating elements which demonstrate the diversity of this Europe of ours."  
 **Prediction:** "ce debat et l amendement de la directive nous permet d integrer les elements qui demontrent la diversite de notre europe ."  
 **Google Translate:** ce débat et l'amendement de la directive actuellement en vigueur nous permettent d'intégrer des éléments de différenciation qui démontrent la diversité de cette Europe qui est la nôtre."  
+**Google Translate Back Translation of Prediction:** "this debate and the amendment of the directive allow us to integrate the elements which demonstrate the diversity of our europe."  
+
+As you can see with the example above, the prediction may not be word to word with Google Translate results, but the prediction still maintains the semantic information and context that was in the input.
 
 ### English -> German
 **Input:** "this is a short paragraph."  
