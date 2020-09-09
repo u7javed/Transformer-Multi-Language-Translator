@@ -72,6 +72,11 @@ Since I do not know many of the langauges I have trained on the Transformer mode
 **Prediction:** "que je devrais faire ?"  
 **Google Translate:** "que devrais-je faire?"  
 
+**Validation Datapoint from Dataset (Larger Sentence)**
+**Input:** "this debate and the amendment of the directive currently in force allow us to incorporate differentiating elements which demonstrate the diversity of this Europe of ours."
+**Prediction:** "ce debat et l amendement de la directive nous permet d integrer les elements qui demontrent la diversite de notre europe ."
+**Google Translate:** ce débat et l'amendement de la directive actuellement en vigueur nous permettent d'intégrer des éléments de différenciation qui démontrent la diversité de cette Europe qui est la nôtre."
+
 ### English -> German
 **Input:** "this is a short paragraph."  
 **Prediction:** "das ist ein kurzer absatz ."  
