@@ -39,7 +39,7 @@ Python Files
   - translate.py
     - an executable python script that (assuming default hyperparameters) takes in the input text, input language, output language and returns the tranlation from the input language to the output language. For example, here is a test run:
     ```
-    python translate.py --input_test "What is your name?" --input_language english --output_language french
+    python translate.py --input_text "What is your name?" --input_lang english --output_lang french
     ```  
     This command will translate the text **"What is your name?"** to French.
     - To use tranlate.py correctly, the model weights and dictionary files must follow the following organization. In the saved_models directory, create a directory signifying the translation model (eg. english2french) and save the models that translate from english to french in said directory. Also save the dictionary files using pixel. **If your cloning this repo and don't want to train, then there is no need to do any of the steps above as all files are in place.** 
@@ -63,7 +63,7 @@ If you want to test the software without training or any other steps described a
   - Step 3:
     - Run the python script **translate.py** and entering the hyperparameters **input_text, input_lang, output_lang**. For example,
       ```
-      python translate.py --input_test "How is your day today?" --input_language english --output_language french
+      python translate.py --input_text "How is your day today?" --input_lang english --output_lang french
       ```  
       Here are the list of possible input -> output pairs:
         - English -> French
