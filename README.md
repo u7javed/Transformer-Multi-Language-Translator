@@ -88,3 +88,21 @@ As you can see with the example above, the prediction may not be word to word wi
 **Input:** "what is your name?"  
 **Prediction:** "was ist ihr name ?"  
 **Google Translate:** "was ist ihr name?" 
+
+### Italian -> English
+**Input:** "oggi è una giornata bellissima."  
+**Prediction:** "today is a magnificent day ."  
+**Google Translate:** "today is a beautiful day."  
+
+**Input:** "la collaborazione è la chiave del successo."  
+**Prediction:** "cooperation is key to success ."  
+**Google Translate:** "collaboration is the key to success."  
+
+### Portuguese -> English
+**Input:** "é importante cuidar de sua saúde mental."  
+**Prediction:** "it is important to promote their mental health ."  
+**Google Translate:** "it is important to take care of your mental health."  
+
+**Input:** "você deve dormir uma boa quantidade de sono todos os dias."  
+**Prediction:** "sleep a good amount of sleep every day ."  
+**Google Translate:** "you should get a good amount of sleep every day."  
