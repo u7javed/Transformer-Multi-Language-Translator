@@ -5,7 +5,7 @@ Reference to **Attention Is All You Need** Paper: https://arxiv.org/pdf/1706.037
 
 ## Model
 
-The Transformer model can be split into two main components, the encoder and the decoder. 
+Currently, the transformer model is the state-of-the-art approach to a lot of major natural language processing tasks such machine translation and language modelling. The Transformer model can be split into two main components, the encoder and the decoder. 
 
 ![](data/uploads/transformer_architecture.png)
 
