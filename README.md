@@ -1,4 +1,4 @@
-# Transformer Multi-Language-Translator
+# Transformer Multi-Language Translator
 A multi-langauge translator that utilizes the transformer neural network model from the paper titled **Attention Is All You Need**. 
 
 Reference to Paper: https://arxiv.org/pdf/1706.03762.pdf
