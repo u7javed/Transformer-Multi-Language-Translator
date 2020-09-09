@@ -34,8 +34,22 @@ Python Files
     ```
     --data_directory data
     ```
-    followed by a space to seperate each hyperparameter entered. Please refer to the file to see specific hyperparamters.
-
+    followed by a space to seperate each hyperparameter entered. Please refer to the file to see specific hyperparamters. **NOTE: In order to train yourself, either download the proper tgz files in the datasets section below and correct the script parameters or use your own dataset and modify the train.py file to work with your dataset.**
+    
+  - translate.py
+    - an executable python script that (assuming default hyperparameters) takes in the input text, input language, output language and returns the tranlation from the input language to the output language. For example, here is a test run:
+    ```
+    python translate.py --input_test "What is your name?" --input_language english --output_language french
+    ```  
+    This command will translate the text **"What is your name?"** to French.
+    - To use tranlate.py correctly, the model weights and dictionary files must follow the following organization. In the saved_models directory, create a directory signifying the translation model (eg. english2french) and save the models that translate from english to french in said directory. Also save the dictionary files using pixel. **If your cloning this repo and don't want to train, then there is no need to do any of the steps above as all files are in place.** 
+    
+  - dictionary.py
+    - creates a Dictionary class which keeps track of all words seen from the dataset in each language and assigns a unique token to every new word.
+    
+  - utilities.py
+    - contains utility functions to help with preprocessing and post processing data.
+    
 ## Samples
 
 Since I do not know many of the langauges I have trained on the Transformer model, I will be using more robust translators as comparison such as Google Translate.
