@@ -53,6 +53,28 @@ Python Files
   - utilities.py
     - contains utility functions to help with preprocessing and post processing data.
     
+## Purely Testing
+If you want to test the software without training or any other steps described above, then follow the following steps:
+
+  - Step 1:
+    - Clone the Repository.
+  - Step 2: 
+    - Ensure you have all the requirements necessary in the requirements.txt file. Main ones are Pytorch and other math libraries such as Numpy.
+  - Step 3:
+    - Run the python script **translate.py** and entering the hyperparameters **input_text, input_lang, output_lang**. For example,
+      ```
+      python translate.py --input_test "How is your day today?" --input_language english --output_language french
+      ```  
+      Here are the list of possible input -> output pairs:
+        - English -> French
+        - English -> German
+        - English -> Italian
+        - English -> Portuguese
+        - French -> English
+        - German -> English
+        - Italian -> English
+        - Portuguese -> English
+    
 ## Datasets
 
 For this project, the European Parliament Proceedings Parallel Corpus 1996-2011 is used. Note, the downloaded files are tgz files. In order to use them, please extract them and name them according to the format you see in this repo, including appropriately expanding names for convenient access. Link to dataset: https://www.statmt.org/europarl/
