@@ -41,10 +41,19 @@ Python Files
 Since I do not know many of the langauges I have trained on the Transformer model, I will be using more robust translators as comparison such as Google Translate.
 
 ### English -> French
-**Input:** "It is important to know."  
+**Input:** "it is important to know."  
 **Prediction:** "il est important de savoir ."  
-**Google Translate:** "Il est important de savoir."  
+**Google Translate:** "il est important de savoir."  
 
-**Input:** "What should I do?"  
+**Input:** "what should I do?"  
 **Prediction:** "que je devrais faire ?"  
-**Google Translate:** "Que devrais-je faire?"  
+**Google Translate:** "que devrais-je faire?"  
+
+### English -> German
+**Input:** "this is a short paragraph."  
+**Prediction:** "das ist ein kurzer absatz ."  
+**Google Translate:** "dies ist ein kurzer Absatz"  
+
+**Input:** "what is your name?"  
+**Prediction:** "was ist ihr name ?"  
+**Google Translate:** "was ist ihr name?" 
