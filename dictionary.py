@@ -26,18 +26,3 @@ class Dictionary:
             self.n_count += 1
         else:
             self.word2count[word] += 1
-
-
-#returns a dataloader similar to that of pytorch's that contains input variable 
-#and target variable as tuple
-def create_batches(input_lang, output_lang, batch_size, device):
-    data_loader = []
-    for i in range(0, len(input_lang), batch_size):
-        seq_length = min(len(input_lang) - batch_size, batch_size)
-        input_batch = input_lang[i:i+seq_length][:]
-        target_batch = output_lang[i:i+seq_length][:]
-        input_tensor = torch.LongTensor(input_batch).to(device)
-        target_tensor = torch.LongTensor(target_batch).to(device)
-        data_loader.append([input_tensor, target_tensor])
-
-    return data_loader
