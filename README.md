@@ -53,6 +53,12 @@ Python Files
   - utilities.py
     - contains utility functions to help with preprocessing and post processing data.
     
+## Datasets
+
+For this project, the European Parliament Proceedings Parallel Corpus 1996-2011. Note, the downloaded files are tgz files. In order to use them, please extract them and name them according to the format you see in this repo, including appropriately expanding names for convenient access. Link to dataset: https://www.statmt.org/europarl/
+
+Reference to paper: http://homepages.inf.ed.ac.uk/pkoehn/publications/europarl.pdf
+    
 ## Samples
 
 Since I do not know many of the langauges I have trained on the Transformer model, I will be using more robust translators as comparison such as Google Translate.
