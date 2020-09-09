@@ -4,7 +4,7 @@ A multi-langauge translator that utilizes the transformer neural network model f
 ## Training
 
 ### Organization of Data
-Please refer to the dataset section for more details on the datasets I'm using. The data files I'm using for training are line by line files meaning each line is training. Each langauge file comes in pairs. For example, if I want to train the translator to work with English and French, the files I have are located in the ```data/french-english/``` directory and the files present ```english.txt``` and ```french.txt```. Thus, we have the file locations ```data/french-english/english.txt``` and ```data/french-english/french.txt```. This is the organization format I used in this project and the organization applies to all language pairs. Keep in mind, English, is usually the latter in the data/**language-language** directory name as you can see in the data directory.
+Please refer to the dataset section for more details on the datasets I'm using. The data files I'm using for training are line-by-line text files meaning each line is training data. Each langauge file comes in pairs. For example, if I want to train the translator to work with English and French, the files I have are located in the ```data/french-english/``` directory and the files present ```english.txt``` and ```french.txt```. Thus, we have the file locations ```data/french-english/english.txt``` and ```data/french-english/french.txt```. This is the organization format I used in this project and the organization applies to all language pairs. Keep in mind, English, is usually the latter in the data/**language-language** directory name as you can see in the data directory.
 
 Python Files
   - train.py
