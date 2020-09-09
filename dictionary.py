@@ -1,11 +1,11 @@
 #dictionary class that keeps track of all words in a given language as well as assigning a
 #token to them
 
-#from pytorch's documentation website on NLP
 PAD_TOKEN = 0
 SOS_TOKEN = 1
 EOS_TOKEN = 2
 
+#from pytorch's documentation website on NLP
 class Dictionary:
     def __init__(self, name):
         self.name = name
