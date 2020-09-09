@@ -44,8 +44,8 @@ Python Files
     This command will translate the text **"What is your name?"** to French.
     - To use tranlate.py correctly, the model weights and dictionary files must follow the following organization. In the saved_models directory, create a directory signifying the translation model (eg. english2french) and save the models that translate from english to french in said directory. Also save the dictionary files using pixel. **If your cloning this repo and don't want to train, then there is no need to do any of the steps above as all files are in place.** 
     
-  - extract.py
-    - run this script on your tgz dataset and it will extract it for you appropriately.
+  - models.py
+    - Contains the component classes to build a Transformer model and includes the Transformer Class. Also includes Feed-Forward Layer, Multi-Head Attention, Encoder Layers, Encoder, Decoder Layers, and Decoder.
     
   - dictionary.py
     - creates a Dictionary class which keeps track of all words seen from the dataset in each language and assigns a unique token to every new word.
